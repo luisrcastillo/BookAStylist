@@ -19,6 +19,16 @@
 		F7248EA81E02DF5A00AC4596 /* BookAStylistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7248EA71E02DF5A00AC4596 /* BookAStylistTests.swift */; };
 		F7248EB31E02DF5A00AC4596 /* BookAStylistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7248EB21E02DF5A00AC4596 /* BookAStylistUITests.swift */; };
 		F7248EC11E02DFBB00AC4596 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7248EC01E02DFBB00AC4596 /* GoogleService-Info.plist */; };
+		F7A7FAD61E0856C80066B167 /* StateAbbrevs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A7FAD51E0856C80066B167 /* StateAbbrevs.swift */; };
+		F7BBE2051E03082E005D7B52 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE2041E03082E005D7B52 /* TabBarController.swift */; };
+		F7BBE2071E03168A005D7B52 /* BusinessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE2061E03168A005D7B52 /* BusinessController.swift */; };
+		F7BBE20C1E035E4A005D7B52 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE20B1E035E4A005D7B52 /* Customer.swift */; };
+		F7BBE20E1E035EC4005D7B52 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE20D1E035EC4005D7B52 /* ServiceProvider.swift */; };
+		F7BBE2101E035F79005D7B52 /* BarberShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE20F1E035F79005D7B52 /* BarberShopView.swift */; };
+		F7BBE2121E035FDE005D7B52 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE2111E035FDD005D7B52 /* LoginView.swift */; };
+		F7BBE2141E0362AF005D7B52 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE2131E0362AF005D7B52 /* LoginController.swift */; };
+		F7D182AB1E02FD6900BFA1B5 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D182AA1E02FD6900BFA1B5 /* BusinessCell.swift */; };
+		F7D182AD1E02FFA600BFA1B5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D182AC1E02FFA600BFA1B5 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +73,16 @@
 		F7248EB21E02DF5A00AC4596 /* BookAStylistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAStylistUITests.swift; sourceTree = "<group>"; };
 		F7248EB41E02DF5A00AC4596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7248EC01E02DFBB00AC4596 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7A7FAD51E0856C80066B167 /* StateAbbrevs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateAbbrevs.swift; sourceTree = "<group>"; };
+		F7BBE2041E03082E005D7B52 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F7BBE2061E03168A005D7B52 /* BusinessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessController.swift; sourceTree = "<group>"; };
+		F7BBE20B1E035E4A005D7B52 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		F7BBE20D1E035EC4005D7B52 /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		F7BBE20F1E035F79005D7B52 /* BarberShopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberShopView.swift; sourceTree = "<group>"; };
+		F7BBE2111E035FDD005D7B52 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F7BBE2131E0362AF005D7B52 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F7D182AA1E02FD6900BFA1B5 /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
+		F7D182AC1E02FFA600BFA1B5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,14 +161,22 @@
 		F7248E8E1E02DF5900AC4596 /* BookAStylist */ = {
 			isa = PBXGroup;
 			children = (
+				F7A7FAD41E0856B60066B167 /* Helper */,
+				F7BBE20A1E035E37005D7B52 /* Model */,
+				F7BBE2091E035E30005D7B52 /* Controller */,
+				F7BBE2081E035E25005D7B52 /* View */,
 				F7248E8F1E02DF5900AC4596 /* AppDelegate.swift */,
 				F7248E911E02DF5900AC4596 /* ViewController.swift */,
+				F7D182AA1E02FD6900BFA1B5 /* BusinessCell.swift */,
 				F7248E931E02DF5900AC4596 /* Main.storyboard */,
 				F7248E991E02DF5900AC4596 /* Assets.xcassets */,
 				F7248E9B1E02DF5900AC4596 /* LaunchScreen.storyboard */,
 				F7248E9E1E02DF5900AC4596 /* Info.plist */,
 				F7248EC01E02DFBB00AC4596 /* GoogleService-Info.plist */,
 				F7248E961E02DF5900AC4596 /* BookAStylist.xcdatamodeld */,
+				F7D182AC1E02FFA600BFA1B5 /* Extensions.swift */,
+				F7BBE2041E03082E005D7B52 /* TabBarController.swift */,
+				F7BBE2061E03168A005D7B52 /* BusinessController.swift */,
 			);
 			path = BookAStylist;
 			sourceTree = "<group>";
@@ -169,6 +197,40 @@
 				F7248EB41E02DF5A00AC4596 /* Info.plist */,
 			);
 			path = BookAStylistUITests;
+			sourceTree = "<group>";
+		};
+		F7A7FAD41E0856B60066B167 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F7A7FAD51E0856C80066B167 /* StateAbbrevs.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		F7BBE2081E035E25005D7B52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7BBE20F1E035F79005D7B52 /* BarberShopView.swift */,
+				F7BBE2111E035FDD005D7B52 /* LoginView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F7BBE2091E035E30005D7B52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7BBE2131E0362AF005D7B52 /* LoginController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F7BBE20A1E035E37005D7B52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7BBE20B1E035E4A005D7B52 /* Customer.swift */,
+				F7BBE20D1E035EC4005D7B52 /* ServiceProvider.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,7 +388,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		39FF27CB5FA2058799317722 /* [CP] Copy Pods Resources */ = {
@@ -431,7 +493,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		FEE71AC1DC75628501194ED2 /* [CP] Check Pods Manifest.lock */ = {
@@ -446,7 +508,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -456,9 +518,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D182AD1E02FFA600BFA1B5 /* Extensions.swift in Sources */,
+				F7BBE2141E0362AF005D7B52 /* LoginController.swift in Sources */,
 				F7248E981E02DF5900AC4596 /* BookAStylist.xcdatamodeld in Sources */,
+				F7D182AB1E02FD6900BFA1B5 /* BusinessCell.swift in Sources */,
+				F7A7FAD61E0856C80066B167 /* StateAbbrevs.swift in Sources */,
+				F7BBE20E1E035EC4005D7B52 /* ServiceProvider.swift in Sources */,
+				F7BBE20C1E035E4A005D7B52 /* Customer.swift in Sources */,
+				F7BBE2051E03082E005D7B52 /* TabBarController.swift in Sources */,
+				F7BBE2101E035F79005D7B52 /* BarberShopView.swift in Sources */,
 				F7248E921E02DF5900AC4596 /* ViewController.swift in Sources */,
+				F7BBE2121E035FDE005D7B52 /* LoginView.swift in Sources */,
 				F7248E901E02DF5900AC4596 /* AppDelegate.swift in Sources */,
+				F7BBE2071E03168A005D7B52 /* BusinessController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +787,7 @@
 				F7248EB91E02DF5A00AC4596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7248EBA1E02DF5A00AC4596 /* Build configuration list for PBXNativeTarget "BookAStylistTests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +796,7 @@
 				F7248EBC1E02DF5A00AC4596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7248EBD1E02DF5A00AC4596 /* Build configuration list for PBXNativeTarget "BookAStylistUITests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +805,7 @@
 				F7248EBF1E02DF5A00AC4596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
