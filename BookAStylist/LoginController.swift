@@ -74,9 +74,9 @@ class LoginController: UIViewController {
                                "business_city" : self.loginView.cityTB.text ?? "",
                                "business_state" : self.loginView.stateTB.text ?? "",
                                "business_zip" : self.loginView.zipcodeTB.text ?? "",
-                               "business_phone" : self.loginView.phoneTB.text ?? "",
+                               //"business_phone" : self.loginView.phoneTB.text ?? "",
                                "business_owner_first_name" : self.loginView.firstNameTB.text ?? "",
-                               "business_owner_last_name" : self.loginView.lastNameTB.text ?? ""]
+                               "business_owner_last_name" : self.loginView.lastNameTB.text] as [String : Any]
             
             businessRef.updateChildValues(businessVal, withCompletionBlock: { (error, ref) in
                 if error != nil {

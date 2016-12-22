@@ -10,6 +10,8 @@
 		03B7B35C402A7BDD612F7FB1 /* Pods_BookAStylist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60195C45E11433BFBD74DA05 /* Pods_BookAStylist.framework */; };
 		1896B17560231BBC3A35A7F4 /* Pods_BookAStylistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DC992EAB73AB38AB075D18 /* Pods_BookAStylistTests.framework */; };
 		D4BDE43AE3F14BE954660042 /* Pods_BookAStylistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF0EB18D677F80F013DD2FD /* Pods_BookAStylistUITests.framework */; };
+		F7032E951E0B809F00C84D18 /* BusinessCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7032E941E0B809F00C84D18 /* BusinessCell1.swift */; };
+		F7032E971E0B81E000C84D18 /* BarbershopTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7032E961E0B81DF00C84D18 /* BarbershopTVC.swift */; };
 		F7248E901E02DF5900AC4596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7248E8F1E02DF5900AC4596 /* AppDelegate.swift */; };
 		F7248E921E02DF5900AC4596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7248E911E02DF5900AC4596 /* ViewController.swift */; };
 		F7248E951E02DF5900AC4596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7248E931E02DF5900AC4596 /* Main.storyboard */; };
@@ -27,6 +29,7 @@
 		F7BBE2101E035F79005D7B52 /* BarberShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE20F1E035F79005D7B52 /* BarberShopView.swift */; };
 		F7BBE2121E035FDE005D7B52 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE2111E035FDD005D7B52 /* LoginView.swift */; };
 		F7BBE2141E0362AF005D7B52 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBE2131E0362AF005D7B52 /* LoginController.swift */; };
+		F7C441F31E086F130044C4B6 /* Bsuiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C441F21E086F130044C4B6 /* Bsuiness.swift */; };
 		F7D182AB1E02FD6900BFA1B5 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D182AA1E02FD6900BFA1B5 /* BusinessCell.swift */; };
 		F7D182AD1E02FFA600BFA1B5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D182AC1E02FFA600BFA1B5 /* Extensions.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +61,8 @@
 		6BF923DBF873089C68D2AD50 /* Pods-BookAStylistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookAStylistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookAStylistTests/Pods-BookAStylistTests.debug.xcconfig"; sourceTree = "<group>"; };
 		895D7FB65C9F7F68A9684DB8 /* Pods-BookAStylistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookAStylistUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookAStylistUITests/Pods-BookAStylistUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E88160A401A9C711D8917CF7 /* Pods-BookAStylistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookAStylistUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookAStylistUITests/Pods-BookAStylistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7032E941E0B809F00C84D18 /* BusinessCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell1.swift; sourceTree = "<group>"; };
+		F7032E961E0B81DF00C84D18 /* BarbershopTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarbershopTVC.swift; sourceTree = "<group>"; };
 		F7248E8C1E02DF5900AC4596 /* BookAStylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookAStylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7248E8F1E02DF5900AC4596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7248E911E02DF5900AC4596 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +86,7 @@
 		F7BBE20F1E035F79005D7B52 /* BarberShopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberShopView.swift; sourceTree = "<group>"; };
 		F7BBE2111E035FDD005D7B52 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F7BBE2131E0362AF005D7B52 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F7C441F21E086F130044C4B6 /* Bsuiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bsuiness.swift; sourceTree = "<group>"; };
 		F7D182AA1E02FD6900BFA1B5 /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 		F7D182AC1E02FFA600BFA1B5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +216,7 @@
 		F7BBE2081E035E25005D7B52 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F7032E941E0B809F00C84D18 /* BusinessCell1.swift */,
 				F7BBE20F1E035F79005D7B52 /* BarberShopView.swift */,
 				F7BBE2111E035FDD005D7B52 /* LoginView.swift */,
 			);
@@ -219,6 +226,7 @@
 		F7BBE2091E035E30005D7B52 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7032E961E0B81DF00C84D18 /* BarbershopTVC.swift */,
 				F7BBE2131E0362AF005D7B52 /* LoginController.swift */,
 			);
 			name = Controller;
@@ -229,6 +237,7 @@
 			children = (
 				F7BBE20B1E035E4A005D7B52 /* Customer.swift */,
 				F7BBE20D1E035EC4005D7B52 /* ServiceProvider.swift */,
+				F7C441F21E086F130044C4B6 /* Bsuiness.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -521,14 +530,17 @@
 				F7D182AD1E02FFA600BFA1B5 /* Extensions.swift in Sources */,
 				F7BBE2141E0362AF005D7B52 /* LoginController.swift in Sources */,
 				F7248E981E02DF5900AC4596 /* BookAStylist.xcdatamodeld in Sources */,
+				F7032E971E0B81E000C84D18 /* BarbershopTVC.swift in Sources */,
 				F7D182AB1E02FD6900BFA1B5 /* BusinessCell.swift in Sources */,
 				F7A7FAD61E0856C80066B167 /* StateAbbrevs.swift in Sources */,
 				F7BBE20E1E035EC4005D7B52 /* ServiceProvider.swift in Sources */,
 				F7BBE20C1E035E4A005D7B52 /* Customer.swift in Sources */,
 				F7BBE2051E03082E005D7B52 /* TabBarController.swift in Sources */,
 				F7BBE2101E035F79005D7B52 /* BarberShopView.swift in Sources */,
+				F7032E951E0B809F00C84D18 /* BusinessCell1.swift in Sources */,
 				F7248E921E02DF5900AC4596 /* ViewController.swift in Sources */,
 				F7BBE2121E035FDE005D7B52 /* LoginView.swift in Sources */,
+				F7C441F31E086F130044C4B6 /* Bsuiness.swift in Sources */,
 				F7248E901E02DF5900AC4596 /* AppDelegate.swift in Sources */,
 				F7BBE2071E03168A005D7B52 /* BusinessController.swift in Sources */,
 			);
